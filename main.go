@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/hashicorp/terraform/plugin"
 	"github.com/hashicorp/terraform/terraform"
-	"local/infoblox_call/resources"
+	"github.com/hiscox/terraform-provider-infoblox/infoblox"
 )
 
 func main() {
