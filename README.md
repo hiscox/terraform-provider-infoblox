@@ -65,6 +65,7 @@ resource "infoblox_cname_record" "test" {
 * Configureable TTLs
 * Add comment field to record:txt
 * Go module support
+* Extend functionality to support other Infoblox objects
 
 ## License
 
