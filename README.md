@@ -6,10 +6,9 @@ Note that if someone manually updates/creates a record in Infoblox terraform wil
 
 ## Build the Provider
 
-Go version 1.12.7
+Go version 1.14
 
 ```shell
-go get -d
 go build -o terraform-provider-infoblox
 ```
 
@@ -64,7 +63,6 @@ resource "infoblox_cname_record" "test" {
 * Learn how to mock for `go test`
 * Configureable TTLs
 * Add comment field to record:txt
-* Go module support
 * Extend functionality to support other Infoblox objects
 
 ## License
