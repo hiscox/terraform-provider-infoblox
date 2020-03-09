@@ -5,9 +5,10 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/go-resty/resty"
 	"log"
 	"strings"
+
+	"github.com/go-resty/resty/v2"
 )
 
 // Result contains the json fields from a Get request

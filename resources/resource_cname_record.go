@@ -2,10 +2,11 @@ package resources
 
 import (
 	"fmt"
-	"github.com/go-resty/resty"
+	"log"
+
+	"github.com/go-resty/resty/v2"
 	"github.com/hashicorp/terraform/helper/schema"
 	"github.com/hiscox/terraform-provider-infoblox/infoblox"
-	"log"
 )
 
 func resourceCnameRecord() *schema.Resource {

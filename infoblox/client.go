@@ -4,9 +4,10 @@ package infoblox
 import (
 	"crypto/tls"
 	"errors"
-	"github.com/go-resty/resty"
 	"log"
 	"time"
+
+	"github.com/go-resty/resty/v2"
 )
 
 // Cfg config to construct client

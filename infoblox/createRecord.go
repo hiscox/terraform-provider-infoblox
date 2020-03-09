@@ -4,9 +4,10 @@ package infoblox
 import (
 	"errors"
 	"fmt"
-	"github.com/go-resty/resty"
 	"log"
 	"strings"
+
+	"github.com/go-resty/resty/v2"
 )
 
 func init() {
