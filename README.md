@@ -1,3 +1,4 @@
+**DEPRECATED: an offical provider is now available so we're no longer rolling our own. See: https://github.com/terraform-providers/terraform-provider-infoblox**
 # terraform-provider-infoblox
 
 A terraform provider for creating records in Infoblox. Tested with Terraform 0.12.7 and Infoblox WAPI 2.10.1
